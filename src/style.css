@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 4.385em !important;
-  width: 14.505em !important;
+  height: 2.1925em !important;
+  width: 7.2525em !important;
 }
 
 .navbar-nav .nav-link {
@@ -262,11 +262,11 @@ button:focus {
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-top: 0px !important;
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 9rem 0 0rem !important;
   color: grey;
   text-align: left;
 }
@@ -321,7 +321,6 @@ button:focus {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
 }
 
 .home-about-description {
@@ -333,6 +332,7 @@ button:focus {
 
 .home-about-body {
   padding-top: 50px;
+  padding-left: 20px;
   font-size: 1.2em !important;
   text-align: left;
 }
@@ -342,6 +342,44 @@ button:focus {
   padding-top: 25px;
   color: black !important;
 }
+
+.video-container {
+	position:relative !important;
+	padding-bottom:56.25%;
+	padding-top:150px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 50;
+  left: 0;
+
+}
+
+/* _embed.scss:3 */
+.embed-responsive {
+  position: relative;
+  display: block;
+  padding-bottom:56.25%;
+	padding-top:200px;
+	height:0;
+  overflow: hidden;
+}
+
+.embed-responsive-item,
+  iframe,
+  embed,
+  object,
+  video {
+    position: absolute;
+    top: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60.5%;
+  }
 
 .home-about-social-links {
   justify-content: center !important;
@@ -463,7 +501,7 @@ button:focus {
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
-  background-color: transparent !important;
+  background-color: grey !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;

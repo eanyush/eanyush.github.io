@@ -14,13 +14,23 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
+          <Col md={6}>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item"
+            src="https://www.youtube.com/embed/WyprXhvGVYk" 
+            title="What are the most important moral problems of our time? | Will MacAskill" 
+            allowfullscreen >
+            </iframe>
+          </div>
+          </Col>
           <Col md={6} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               What is <span className="purple"> Effective Altruism </span> ?
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Effective altruism is a <b className="purple">philosophy </b>
+              and <b className="purple">community </b> focused on 
+              maximising the good you can do through your career, projects, and donations.
               <br />
               <br />I am fluent in classics like
               <i>
@@ -52,11 +62,7 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-            <iframe width="627" height="352" src="https://www.youtube.com/embed/WyprXhvGVYk" title="What are the most important moral problems of our time? | Will MacAskill" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </Tilt>
-          </Col>
+          
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
