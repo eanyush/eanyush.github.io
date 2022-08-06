@@ -16,8 +16,7 @@ function Home() {
 
 
               <h1 className="heading-name">
-                <strong className="main-name">Effective Altruism </strong>
-                is
+                <strong className="main-name">Effective Altruism </strong>                
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>

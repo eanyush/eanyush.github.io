@@ -15,7 +15,7 @@ const options = {
           },
           particles: {
             color: {
-              value: ["#57068c", "#0000ff"]
+              value: ["#6610f2", "#007bff", "#6f42c1"]
             }
           }
         }
@@ -32,7 +32,7 @@ const options = {
           },
           particles: {
             color: {
-              value: ["#57068c", "#0000ff"]
+              value: ["#6610f2", "#007bff", "#6f42c1"]
             }
           }
         }
@@ -48,10 +48,10 @@ const options = {
         }
       },
       shape: {
-        type: ["circle", "square"]
+        type: ["circle", "square", "triangle"]
       },
       opacity: {
-        value: 1
+        value: 0.7
       },
       size: {
         value: 3,
@@ -70,7 +70,7 @@ const options = {
       },
       move: {
         enable: true,
-        speed: 0.5,
+        speed: 0.25,
         direction: "none",
         out_mode: "out"
       }

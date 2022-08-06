@@ -7,8 +7,7 @@ function Particle() {
 
   return (
     <>
-
-      <Particles options={options} container={container} />
+      <Particles options={options} />
     </>
   );
 }
