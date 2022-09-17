@@ -38,7 +38,7 @@ function Home2() {
               actually</b> work.
               <br />
               <br />
-              Here at EA NYU Shanghai, we try to apply the principles of <b className="purple">effective altruism </b>
+              Here at Arete Fellowship NYU Shanghai, we try to apply the principles of <b className="purple">effective altruism </b>
               to help everyone have a larger positive social impact with their lives, 
               whether that's by pursuing a <b className="purple">high impact career</b> that tackles a pressing global problem or 
               through <b className="purple">donating</b> to effective charities.
@@ -55,7 +55,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="mailto:eanyush@gmail.com"
+                  href="mailto:nyush.arete@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

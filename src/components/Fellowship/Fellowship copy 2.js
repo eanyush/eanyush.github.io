@@ -2,25 +2,42 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Fellowship/leaf.png";
+import emotion from "../../Assets/Fellowship/emotion.png";
+import editor from "../../Assets/Fellowship/codeEditor.png";
+import chatify from "../../Assets/Fellowship/chatify.png";
+import suicide from "../../Assets/Fellowship/suicide.png";
+import bitsOfCode from "../../Assets/Fellowship/blog.png";
 
-function Projects() {
+function Fellowship() {
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          <strong className="purple">Arete </strong>Fellowship
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few Fellowship I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ textAlign: "justify", paddingBottom: "10px" }}>
+          
+
+​
+
+The Arete fellowship is a 8-week program where fellows
+
+learn how to maximize their positive impact to tackle the biggest issues
+
+humanity faces today.
+
+​
+
+Our readings will cover topics ranging from Animal Welfare to AI Safety, and from Extreme Poverty to Global Catastrophic Risks. During the program, fellows will actively lead and engage in intensive discussions revolving around ideas and strategies to mitigate these global issues.
+
+​
+
+As an Arete Fellow, you will join a global community of scholars from Oxford, Harvard, Yale, Stanford, Brown, and many renowned institutions around the world for networking, research, and entrepreneurship opportunities.
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -93,4 +110,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Fellowship;

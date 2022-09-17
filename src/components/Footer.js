@@ -17,13 +17,13 @@ function Footer() {
           <h3></h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} Effective Altruism NYU Shanghai</h3>
+          <h3>Copyright © {year} Arete Fellowship NYU Shanghai</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="mailto:eanyush@gmail.com"
+                href="mailto:nyush.arete@gmail.com"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

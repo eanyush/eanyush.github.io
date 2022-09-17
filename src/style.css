@@ -208,40 +208,7 @@ button:focus {
 /* --------- */
 /* Home section */
 /* --------- */
-.wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-  display: inline-block;
-}
 
-@keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
-  100% {
-    transform: rotate(0deg);
-  }
-}
 #tsparticles {
   position: fixed !important;
   z-index: -2;
@@ -481,16 +448,36 @@ button:focus {
   color: #a588c0 !important;
 }
 /* --------- */
-/* Projects */
+/* fellowships */
 /* --------- */
-.project-section {
+.fellowship-section {
   position: relative !important;
   padding-top: 150px !important;
-  padding-bottom: 30px !important;
+  padding-bottom: 10px !important;
   background-image: var(--section-background-color) !important;
 }
 
-.project-card {
+.fellowship-first {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 50px;
+  font-size: 1.2em !important;
+  text-align: justify;
+}
+
+.fellowship-syllabus {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  
+}
+
+.syllabus-button {
+  padding-top: 20px !important;
+  margin: 0;
+  justify-content: center;
+}
+
+.fellowship-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
   padding-left: 25px !important;
@@ -498,7 +485,7 @@ button:focus {
   height: auto !important;
 }
 
-.project-card-view {
+.fellowship-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   background-color: grey !important;
@@ -506,10 +493,58 @@ button:focus {
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
-.project-card-view:hover {
+.fellowship-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+#diamond {
+  width: 0;
+  height: 0;
+  border: 30px solid transparent;
+  border-bottom-color: var(--imp-text-color);
+  position: relative;
+  top: -30px;
+}
+#diamond:after {
+  content: '';
+  position: absolute;
+  left: -30px;
+  top: 30px;
+  width: 0;
+  height: 0;
+  border: 30px solid transparent;
+  border-top-color: var(--imp-text-color);
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 42.0s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 50% 100%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(90deg);
+  }
+  40% {
+    transform: rotate(180deg);
+  }
+  60% {
+    transform: rotate(270deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .blog-card {
@@ -570,11 +605,161 @@ button:focus {
   outline: none !important;
   box-shadow: none !important;
 }
-.project-heading {
+
+
+.question-section {
+  background: white;
+  opacity: 0.75;
+  border: 1px solid #330662;
+  border-radius: 8px;
+  box-shadow: #6d20c5d7 0px 2px 3px 0px,
+  #330662 0px 1px 3px 1px;
+  cursor: pointer;
+  width: 80vw;
+}
+
+.question-align {
+  align-items: center;
+  display: flex;
+  min-height: 10px;
+  text-align: left;
+}
+
+.question-align h4 {
+  margin-left: 8px;
+}
+
+.question-styling {
+  font-size: 17px;
+  width: 100%;
+  opacity: 1;
+}
+
+.question-icon {
+  background: none;
+  border: none;
+  color: #6d20c5d7;
+  cursor: pointer;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: 8px;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.answer-divider {
+  border-top: 1px solid #330662;
+}
+
+.answer {
+  margin-left: 8px;
+  margin-right: 8px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  text-align: left;
+  opacity: 1;
+}
+
+.faqs {
+	width: 100%;
+	max-width: 1002px;
+	margin: 0 auto;
+	padding: 15px;
+  opacity: 0.75;
+}
+
+.faqs .faq {
+	margin: 15px;
+	padding: 15px;
+	background-color: #FFF;
+  
+	border-radius: 8px;
+	box-shadow: 0px 0px 8px #330662;
+}
+
+.faqs .faq .faq-question {
+	position: relative;
+	font-size: 20px;
+	padding-right: 80px;
+
+	transition: all 0.4s ease;
+}
+
+.faqs .faq .faq-question::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	transform: translateY(-50%);
+	width: 30px;
+	height: 30px;
+
+	background-image: none !important;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	transition: all 0.4s ease-out;
+}
+
+.faqs .faq .faq-answer {
+	opacity: 0.75;
+	max-height: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: justify !important;
+	overflow-y: hidden;
+	transition: all 0.4s ease-out;
+}
+
+.faqs .faq.open .faq-question {
+	margin-bottom: 15px;
+}
+
+.faqs .faq.open .faq-question::after {
+	transform: translateY(-50%) rotate(180deg);
+}
+
+.faqs .faq.open .faq-answer {
+	max-height: 1000px;
+	opacity: 0.75;
+}
+
+.fellowship-heading {
   color: black !important;
-  font-size: 2.3em !important;
+  font-size: 2.6em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+  padding-bottom: 30px !important;
+}
+
+.fellowship-subheading {
+  color: black !important;
+  font-size: 2em !important;
+  font-weight: 500 !important;
+  padding-top: 50px !important;
+  padding-bottom: 20px !important;
+  text-align: center !important;
+}
+
+.fellowship-subheading2 {
+  color: black !important;
+  font-size: 2em !important;
+  font-weight: 500 !important;
+  padding-bottom: 20px !important;
+  text-align: center !important;
+}
+
+.hrl {
+  border: none;
+  border-top: 5px dotted #623686;
+  color: transparent;
+  background-color: transparent;
+  height: 0px;
+  width: 100%;
 }
 
 /* --------- */
@@ -646,6 +831,13 @@ button:focus {
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+  color: black !important;
+}
+
+.resume-section2 {
+  position: relative !important;
+  padding-top: 110px !important;
+  padding-bottom: 30px !important;
   color: black !important;
 }
 
@@ -760,7 +952,7 @@ button:focus {
 }
 
 .fork-btn {
-  font-size: 1.1em !important;
+  font-size: 1.2em !important;
   padding-top: 10px !important;
 }
 
@@ -779,4 +971,30 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+/* Hyperlink */
+
+a:link {
+  color:var(--imp-text-color);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #934cce5e;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
 }

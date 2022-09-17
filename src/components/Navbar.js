@@ -67,22 +67,22 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> People
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>  */}
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/fellowship"
                 onClick={() => updateExpanded(false)}
               >
                 <FaGraduationCap
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                Fellowship
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             {/* <Nav.Item>
               <Nav.Link
@@ -100,10 +100,20 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <AiFillStar style={{ marginBottom: "2px" }} /> APPLY!
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>  */}
 
+            <Nav.Item className="fork-btn">
+              <Button
+                href="https://forms.gle/GKEaed7ZxnqDL1Am9"
+                target="_blank"
+                className="fork-btn-inner"
+              >
+                
+                <AiFillStar style={{ fontSize: "1em" }} /> APPLY {" "}
+              </Button>
+            </Nav.Item>
 
           </Nav>
         </Navbar.Collapse>
