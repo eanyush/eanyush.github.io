@@ -1,29 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.c081f289.css",
-    "main.js": "/static/js/main.edb7d5a1.js",
+    "main.css": "/static/css/main.534fa47a.css",
+    "main.js": "/static/js/main.f3eea362.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
-    "static/media/emotion.png": "/static/media/emotion.eabfc16e7a146ab15778.png",
-    "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
-    "static/media/logo.png": "/static/media/logo.d01b25b635ceeeda1f8d.png",
-    "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
-    "static/media/blog.png": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/S22_NYU_Syllabus.pdf": "/static/media/S22_NYU_Syllabus.91db76abe406ac29dfcc.pdf",
+    "static/media/logo.png": "/static/media/logo.28618c4a3e1f65b3a694.png",
+    "static/media/Soumyajit_Behera-BIT_MESRA.pdf": "/static/media/Soumyajit_Behera-BIT_MESRA.49de91d99dcf1ba5becf.pdf",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/ea_reading.jpg": "/static/media/ea_reading.d0a1ba51f9b55a675127.jpg",
     "static/media/home-main.svg": "/static/media/home-main.d5044a6bd0cf02e06f1e9c7efa38f423.svg",
-    "static/media/chatify.png": "/static/media/chatify.7206044e0b5cdad44726.png",
-    "static/media/Soumyajit_Behera-BIT_MESRA.pdf": "/static/media/Soumyajit_Behera-BIT_MESRA.53cbdad696442b0642b9.pdf",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/DSC_6129_JPG.webp": "/static/media/DSC_6129_JPG.1a57c9854132a01c59c2.webp",
+    "static/media/second_d.svg": "/static/media/second_d.859c02390f440ccb1b80a84a3d9ff8e9.svg",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
-    "main.c081f289.css.map": "/static/css/main.c081f289.css.map",
-    "main.edb7d5a1.js.map": "/static/js/main.edb7d5a1.js.map",
+    "main.534fa47a.css.map": "/static/css/main.534fa47a.css.map",
+    "main.f3eea362.js.map": "/static/js/main.f3eea362.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c081f289.css",
-    "static/js/main.edb7d5a1.js"
+    "static/css/main.534fa47a.css",
+    "static/js/main.f3eea362.js"
   ]
 }
