@@ -6,7 +6,7 @@ import ea_reading from "../../Assets/ea_reading.jpg";
 import second_d from "../../Assets/second_d.svg";
 import DSC_6129_JPG from "../../Assets/DSC_6129_JPG.webp";
 import Button from "react-bootstrap/Button";
-import pdf from "../../Assets/S22_NYU_Syllabus.pdf"; 
+import pdf from "../../Assets/F22_NYUSH_Syllabus.pdf"; 
 import { AiOutlineDownload } from "react-icons/ai";
 import { FiPlus } from "react-icons/fi";
 import FAQ from './FAQ.js';
@@ -20,7 +20,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 // import suicide from "../../Assets/Fellowship/suicide.png";
 // import bitsOfCode from "../../Assets/Fellowship/blog.png";
 const resumeLink =
-  "https://drive.google.com/file/d/1gFdFRHFqwsHs7RxRf0ezxywmhC6GgpcE/view?usp=sharing";
+  "https://drive.google.com/file/d/11a62xtOVeTZx3TXyunrFZHHnJzXMpakZ/view?usp=sharing";
 
 function Fellowship() {
   // const [width, setWidth] = useState(1200);

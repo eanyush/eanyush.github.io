@@ -6,7 +6,7 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Working on the right problems",
+          "Finding the ones worth solving",
           "Improving long term future",
           "Fighting extreme poverty",
           "Empathy meeting evidence",

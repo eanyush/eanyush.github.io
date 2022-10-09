@@ -31,19 +31,10 @@ function Footer() {
                 <AiOutlineMail />
               </a>
             </li>
+
             <li className="social-icons">
               <a
-                href="https://www.facebook.com/eanyush"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillFacebook />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/eanyush/"
+                href="https://twitter.com/afnyush/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -51,9 +42,10 @@ function Footer() {
                 <FaTwitter />
               </a>
             </li>
+
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/eanyush/"
+                href="https://www.instagram.com/afnyush/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

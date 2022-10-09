@@ -25,20 +25,18 @@ function Home2() {
           </Col>
           <Col md={6} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              What is <span className="purple"> Effective Altruism </span> ?
+              How to do <span className="purple"> Good Better </span> ?
             </h1>
             <p className="home-about-body">
-              Effective altruism is a <b className="purple">philosophy </b>
-              and <b className="purple">community </b> focused on 
-              maximising the good you can do through your career, projects, and donations.
-              <br />
-              <br />Everyone wants to do good, but many ways of doing good are 
+              Everyone wants to do <b className="purple">good</b>, but many ways of doing good are 
               <b className="purple"> ineffective </b> or <b className="purple">actively harmful</b>. 
-              The EA movement arose out of a desire to make sure that attempts to do good <b className="purple">
-              actually</b> work.
+              The EA community arose out of a desire to make sure that attempts to do good <b className="purple">
+              actually</b> work. We want to help people question deeply <b className="purple">what</b> it means to do good, <b className="purple">why</b> doing good 
+              matters, and <b className="purple">how</b> they can play a role in solving some 
+              of the world's <b className="purple">biggest problems</b>.
               <br />
               <br />
-              Here at Arete Fellowship NYU Shanghai, we try to apply the principles of <b className="purple">effective altruism </b>
+              <b className="purple">Arete Fellowship NYU Shanghai</b> is a community of caring, rationally-minded people trying to apply the principles of <b className="purple">effective altruism </b>
               to help everyone have a larger positive social impact with their lives, 
               whether that's by pursuing a <b className="purple">high impact career</b> that tackles a pressing global problem or 
               through <b className="purple">donating</b> to effective charities.
@@ -63,19 +61,10 @@ function Home2() {
                   <AiOutlineMail />
                 </a>
               </li>
+       
               <li className="social-icons">
                 <a
-                  href="https://www.facebook.com/eanyush"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillFacebook />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/eanyush"
+                  href="https://twitter.com/afnyush"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -85,7 +74,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/eanyush/"
+                  href="https://www.instagram.com/afnyush/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
