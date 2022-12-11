@@ -10,11 +10,9 @@ import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
-  
+  AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-import { FaGraduationCap,
-} from "react-icons/fa"
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -61,30 +59,30 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> People
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
-            </Nav.Item>  */}
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/fellowship"
+                to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <FaGraduationCap
+                <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Fellowship
+                Projects
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -92,30 +90,30 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 href="https://blogs.soumya-jit.tech/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <AiFillStar style={{ marginBottom: "2px" }} /> APPLY!
+                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
-            </Nav.Item>  */}
+            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdyDbneVrsDm9FFonCSMchW4hUmyzVS7tk-nEFkTZF5o6klBw/viewform?usp=sf_link"
+                href="https://github.com/soumyajit4419/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
-                
-                <AiFillStar style={{ fontSize: "1em" }} /> APPLY {" "}
+                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
+                <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>
-
           </Nav>
+
         </Navbar.Collapse>
       </Container>
     </Navbar>
