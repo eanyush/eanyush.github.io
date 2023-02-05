@@ -32,7 +32,7 @@ function Fellowship() {
   const [faqs, setfaqs] = useState([
     {
       question: 'What is the format of the Arete Fellowship?',
-      answer: 'The Fellowship is a series of 8 hour-long in-person discussions with 5-8 participants and 1-2 discussion leaders in each section. Before each meeting, participants will be provided with required readings. Discussion leaders will prompt participants with questions related to the readings, but most of the conversation is carried by the participants.  ',
+      answer: 'The Fellowship is a series of eight 1 hour-long in-person discussions with 5-8 participants and 1-2 discussion leaders in each section. Before each meeting, participants will be provided with required readings. Discussion leaders will prompt participants with questions related to the readings, but most of the conversation is carried by the participants.  ',
       open: true
     },
     {
