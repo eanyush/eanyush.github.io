@@ -10,6 +10,7 @@ import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
+  AiOutlineTeam,
   
   AiOutlineUser,
 } from "react-icons/ai";
@@ -94,15 +95,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item> */}
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
-                href="https://blogs.soumya-jit.tech/"
+                href="https://calendly.com/arete-fellowship/20min"
                 target="_blank"
                 rel="noreferrer"
               >
-                <AiFillStar style={{ marginBottom: "2px" }} /> APPLY!
+                <AiOutlineTeam style={{ marginBottom: "2px" }} /> Schedule 1-on-1
               </Nav.Link>
-            </Nav.Item>  */}
+            </Nav.Item> 
 
             <Nav.Item className="fork-btn">
               <Button
